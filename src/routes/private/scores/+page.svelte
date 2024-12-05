@@ -16,7 +16,7 @@
 	<Heading tag="h1" class="mb-4" customSize="text-xl font-extrabold md:text-2xl lg:text-3xl"
 		>Leaderboards</Heading
 	>
-	<div class="mx-auto w-1/2 p-4">
+	<div class="mx-auto p-4 lg:w-1/2">
 		<Table shadow>
 			<TableHead>
 				<TableHeadCell>Assassin</TableHeadCell>
@@ -36,7 +36,7 @@
 	<Heading tag="h1" class="mb-4" customSize="text-xl font-extrabold md:text-2xl lg:text-3xl"
 		>Assassination Log</Heading
 	>
-	<div class="mx-auto w-1/2 p-4">
+	<div class="mx-auto p-4 lg:w-1/2">
 		<Table shadow>
 			<TableHead>
 				<TableHeadCell>Assassin</TableHeadCell>

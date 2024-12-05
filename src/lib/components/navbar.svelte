@@ -8,11 +8,13 @@
 			>Assassins</span
 		>
 	</NavBrand>
-	<NavHamburger />
+	<div class="flex md:order-2">
+		<DarkMode />
+		<NavHamburger />
+	</div>
 	<NavUl>
 		<NavLi href="/">Home</NavLi>
 		<NavLi href="/private/scores">Scores</NavLi>
 		<NavLi href="/private/report">Report Assassination</NavLi>
-    </NavUl>
-    <DarkMode />
+	</NavUl>
 </Navbar>
