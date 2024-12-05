@@ -9,8 +9,8 @@
 		>
 		<div class="mt-15 flex items-center justify-center gap-4">
 			<Button color="dark" href="/login">Sign In</Button>
-			<Button color="dark" href="/scores">Scores</Button>
-			<Button color="dark" href="/report">Report Assassination</Button>
+			<Button color="dark" href="/private/scores">Scores</Button>
+			<Button color="dark" href="/private/report">Report Assassination</Button>
 		</div>
 	</div>
 </div>
