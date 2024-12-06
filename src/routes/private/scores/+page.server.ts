@@ -3,7 +3,7 @@ import type { PageServerLoad } from './$types'
 export const load: PageServerLoad = async ({ depends, locals: { supabase } }) => {
     // Get scores
     depends('supabase:db:scores')
-    const { data: scores, error } = await supabase.from('scores').select("score,name")
+    const { data: scores, error } = await supabase.from('scores').select("id,score,name")
     if (error) {
         console.error(error)
     }

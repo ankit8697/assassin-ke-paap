@@ -16,7 +16,7 @@ export const actions: Actions = {
         } else {
             console.log("Now updating the db")
             const { error } = await supabase.from("scores").insert({
-                id: data.user.id,
+                id: data.user?.id,
                 name: name
             })
             if (error) {
