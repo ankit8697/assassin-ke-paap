@@ -19,7 +19,7 @@ export const load: PageServerLoad = async ({ depends, locals: { supabase } }) =>
     const assassinationLog = []
     logs.map(log => {
         const date = new Date(log.created_at)
-        const formattedDate = date.toLocaleString('en-US', {
+        const formattedDate = date.toLocaleString('en-IN', {
             year: 'numeric',
             month: 'long', // e.g., "December"
             day: 'numeric',
